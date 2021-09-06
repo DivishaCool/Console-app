@@ -1,0 +1,60 @@
+<!--Hello! This is my first console app Project. I hope you like it...-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Console app</h1>
+<p>Click on inspect and go to console to see the app....<br> <br> Here are the calculations ( you will find answers in console )</p>
+<br>
+<br>
+<ul>
+    <li>20+40</li>
+    <li>240-310</li>
+    <li>340*520</li>
+    <li>300/2</li>
+    <li>Positive of -34</li>
+    <li>Random number from 1 to 99</li>
+    <li>Checks if 5 is positive or negative ( +1 if positive , -1 if negative , 0 if 0 )</li>
+    <li>Checks if -3 is positive or negative</li>
+    <li>Checks if 0 is positive or negative </li>
+
+</ul>
+
+
+
+<script>
+    
+    var add = 20 + 40;
+    console.log(add);
+
+    var subtract = 240 - 310;
+    console.log(subtract);
+
+    var multiply = 340 * 520;
+    console.log(multiply);
+
+    var divide = 300/2;
+    console.log(divide);
+
+    var positive = Math.abs(-34);
+    console.log(positive);
+
+    // Returns a random integer from 0 to 99:
+
+    var random = Math.floor(Math.random() * 100);
+    console.log(random);
+
+    // Find out if a number is negative or positive
+
+    var a = Math.sign(5);  //1 because positive 
+    var b = Math.sign(-3); // -1 because negative  
+    var c = Math.sign(0);  // 0 because 0
+
+    console.log(a);
+    console.log(b);
+    console.log(c);
+</script>
+
+</body>
+</html>
